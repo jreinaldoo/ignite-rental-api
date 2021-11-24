@@ -10,6 +10,7 @@ specificationRoutes.post("/", (request, response) => {
 });
 
 specificationRoutes.get("/", (request, response) => {
+    console.log("teste");
     return listSpecificationController.handle(request, response);
 });
 
